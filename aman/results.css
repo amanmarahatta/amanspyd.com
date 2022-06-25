@@ -1,0 +1,49 @@
+#navbar{
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgb(139, 109, 0);
+    padding: 20px;
+    margin: 5px;
+}
+#navbar>a{
+color: aliceblue;
+}
+
+      a:hover{
+          animation: reverse;
+        border-bottom: .1em solid rgb(0, 0, 5);
+      }
+
+body{
+    background-color: aqua;
+}
+
+#results1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#results1>a{
+    
+    font-style: oblique;
+    background-color: rgb(245, 245, 245);
+    text-decoration: none;
+    border: solid;
+}
+
+#results{
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+    border: solid;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+#results>h2{
+    text-decoration: underline;
+    text-align: center;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSPYD Calculator</title>
+    <link rel="stylesheet" href="aman.css">
+</head>
+<body>
+    <div id="navbar">
+        <a href="aman01.html" style="text-decoration: none;">HOME</a>
+        <a href="aman.html" style="text-decoration: none;">BSPYD CALC</a>
+        <a href="aman02.html" style="text-decoration: none;">BSPYD QUOTES</a>
+       <a href="aman03.html" style="text-decoration: none;">CONTACT ME</a>
+       </div>
+    <div id="border">
+<div id="header">
+    <h1>Welcome to BSPYD Calculator</h1>
+    <p>-by Aman Marahatta</p>
+</div>
+</div>
+
+<div id="Interest">
+<h2>1. Simple Interest Calculator</h2>
+<h3>Principal:</h3>
+<input type="number" id="p"><br>
+<h3>Time:</h3>
+<input type="number" id="t"><br>
+<h3>Rate:</h3>
+<input type="number" id="r"><br>
+<div id="buton">
+<button onclick="calculateInterest()">Calculate</button></div><br>
+<h3>The simple interest is: </h3>
+    <h4 id="info"></h4>
+
+</div>
+
+<div id="Interest">
+    <h2>2. Rectangle Area Calculator</h2>
+    <h3>Length:</h3>
+    <input type="number" id="l"><br>
+    <h3>Breadth:</h3>
+    <input type="number" id="b"><br>
+    <div id="buton">
+        <button onclick="calculateArea()">Calculate</button>
+    </div><br>
+    <h3>The area of rectangle is: </h3>
+    <h4 id="ans"></h4>
+</div>
+
+<div id="Interest">
+    <h2>3. Circle Area Calculator</h2>
+    <h3>Radius:</h3>
+    <input type="number" id="radius"><br>
+    <div id="buton">
+        <button onclick="circleArea()">Calculate</button>
+    </div><br>
+    <h3>The area of circle is: </h3>
+    <h4 id="circle"></h4>
+</div>
+
+<div id="Interest">
+    <h2>4. Square Area Calculator</h2>
+    <h3>Length:</h3>
+    <input type="number" id="sql"><br>
+    <div id="buton">
+        <button onclick="squareArea()">Calculate</button>
+    </div><br>
+    <h3>The area of square is: </h3>
+    <h4 id="square"></h4>
+</div>
+
+<div id="Interest">
+    <h2>5. Cube Volume Calculator</h2>
+    <h3>Length:</h3>
+    <input type="number" id="cul"><br>
+    <div id="buton">
+    <button onclick="volumeCube()">Calculate</button></div><br>
+    <h3>The volume of cube is: </h3>
+        <h4 id="vcube"></h4>
+    
+    </div>
+
+    <div id="Interest">
+        <h2>6. Cuboid Volume Calculator</h2>
+        <h3>Length:</h3>
+        <input type="number" id="cbdl"><br>
+        <h3>Breadth:</h3>
+        <input type="number" id="cbdb"><br>
+        <h3>Height:</h3>
+        <input type="number" id="cbdh"><br>
+        <div id="buton">
+        <button onclick="volumeCuboid()">Calculate</button></div><br>
+        <h3>The volume of cuboid is: </h3>
+            <h4 id="vcuboid"></h4>
+        
+        </div>
+
+        <div id="Interest">
+            <h2>7. Sphere Volume Calculator</h2>
+            <h3>Radius:</h3>
+            <input type="number" id="sphr"><br>
+            <div id="buton">
+            <button onclick="volumeSphere()">Calculate</button></div><br>
+            <h3>The volume of Sphere is: </h3>
+                <h4 id="vsphere"></h4>
+            
+            </div>
+
+            <div id="Interest">
+                <h2>8. Cylinder Volume Calculator</h2>
+                <h3>Radius:</h3>
+                <input type="number" id="cldr"><br>
+                <h3>Height:</h3>
+                <input type="number" id="cldh"><br>
+                <div id="buton">
+                <button onclick="volumeCylinder()">Calculate</button></div><br>
+                <h3>The volume of cylinder is: </h3>
+                    <h4 id="vcylinder"></h4>
+                
+                </div>
+    
+</body>
+<script src="aman.js"></script>
+</html>

@@ -1,0 +1,82 @@
+#navbar{
+    justify-content: space-evenly;
+    display: flex;
+    background-color: rgb(139, 109, 0);
+    padding: 20px;
+    margin: 5px;
+}
+#navbar>a{
+color: aliceblue;
+}
+
+      a:hover{
+          animation: reverse;
+        border-bottom: .1em solid rgb(0, 0, 5);
+      }
+
+body{
+    background-color: aqua;
+}
+
+#header{
+    text-align: center;
+    background-color: antiquewhite;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#details{
+    text-align: center;
+    border: solid;
+    margin-left: 370px;
+    margin-right: 370px;
+    margin-top: 37px;
+}
+
+#details>h2{
+    text-decoration: underline;
+}
+
+#details>h3{
+    text-align: left;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#footer{
+    text-align: center;
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color: black;
+    color: white;
+}
+
+#commentbox{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: solid;  
+    margin-bottom: 35px;
+}
+
+#first>label{
+  text-decoration: underline;
+}
+
+#second{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#second>button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+textarea{
+    background-color: rgb(251, 251, 239);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
